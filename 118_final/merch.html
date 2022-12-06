@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <link href="merch.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/97d6ea006e.js" crossorigin="anonymous"></script>
+         <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="merch.css">
+    </head>
+    
+    <body>
+
+    </body>
+    
+    <div class="box1">
+        <h5>MY CITY TO CHI CITY</h5>
+    </div>
+    <div class = "row">
+        <div class = "Title"><p><i><b><a href="homepage.html"<h1 style ="font-size:60px"><center>Blxst</center></b></i></h1></a></p></div>
+        <div class = "Bio"><p><u><b><h20><a href = "bio.html">Biography</a></u></b></h20></p></div>
+        <div class = "Soc"><p><u><b><h20><a href = "tours.html">Social Media</a></u></b></h20></p></div>
+        <div class = "Tou"><p><u><b><h20><a href = "social.html">Tours</a></u></b></h20></p></div>
+        <div class = "merch"><p><u><b><h20><a href = "merch.html">Merchandise</a></u></b></h20></p></div>
+</div>
+    
+<div class="cover">
+<img src="blxstlogo.jpg" alt="A picture of BLXST">
+    
+    <div class="text">
+ </div>
+</div>
+<a href="merchshopping.html">START SHOPPING</a>
+<div class="popup">
+    <div class="contentBox">
+        <div class="close"></div>
+        <div class="imgBx">
+            <img src="gift.png">
+        </div>
+        <div class="content">
+            <div>
+                <h21>Special Offer</h21>
+                <h22>*40<sup>%</sup><span>off</span></h22>
+                <p20>End of year sale on all items available here!(Press Red Button To Close Pop-Up)</p20>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Automatic show popup after 2second of page load-->
+<script>
+    const popup = document.querySelector('.popup');
+    const close = document.querySelector('.close');
+    
+    
+    window.onload = function(){
+        setTimeout(function(){
+         popup.style.display = "block";
+           
+          //Add some time delay to show popup         
+         }, 2000)
+    }
+    close.addEventListener('click', () =>{
+        popup.style.display = "none";
+    } )
+
+</script>
+
+<div class="image22">
+<img src="Tshirt1.webp" height="300" width="300">
+<h6> B4UG Black Tour T-Shirt</h6>
+    <p2> USD $30.00</p2>
+        </div>
+        
+<div class="image23">
+<img src="Jacktets1.webp" height="300" width="300">
+<h7> BLXST Lightning Vintage Black Crewneck</h7>
+    <p3> USD $50.00</p3>
+        </div>
+
+<div class="image24">
+<img src="Sweatpants1.webp" height="300" width="300">
+<h10>"Teamwork" French Terry Joggers</h10>
+    <p4> USD $35</p4>
+        </div>
+  
+<div class="image25">
+<img src="AirEVGLEGlobeT-Shirt_360x.webp" height="300" width="300">
+    <h8> "Air Evgle Globe" T-Shirt</h8>
+    <p5> USD $35.00</p5>  
+        </div>
+        
+<div class="image26">
+<img src="blxstsweater.webp" height="300" width="300">
+    <h9> "Boarding Pass" Black Hoodie</h9>
+    <p6> USD $50.00</p6>
+        </div>
+              
+        
+</html>
